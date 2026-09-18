@@ -1,0 +1,23 @@
+/* Shared layout adjustments for the yearly workshop pages. */
+body { width: min(1000px, calc(100% - 32px)); }
+.edition-nav { margin-bottom: 24px; font-size: 16px; }
+.edition-nav a { text-decoration: underline; }
+.edition-notice { box-sizing: border-box; width: 100%; padding: 16px 20px; background: #fff5d6; border-left: 4px solid #b8860b; }
+.banner .top-left { width: 100%; }
+p, ul, table, table.navigation, table.sponsors, iframe.directions { max-width: 100%; }
+@media (max-width: 1100px) {
+    h2 { font-size: 30px; }
+    p, th, td, tr { font-size: 1rem; line-height: 1.5; }
+    td.navigation { font-size: 1rem; padding: 8px 2px; }
+}
+@media (max-width: 650px) {
+    body { margin: 24px auto; }
+    .banner .top-left { position: static; height: auto; padding: 12px 0; font-size: 1rem; line-height: 1.3; }
+    .banner .title1 { font-size: 30px !important; }
+    .banner .bottom-right { position: static; height: auto; padding: 16px; background: #343a36; font-size: 22px !important; text-align: center; }
+    td.navigation a { font-size: 16px !important; }
+    ul { box-sizing: border-box; padding-left: 16px; }
+    td.sponsor { white-space: normal; }
+    .sponsors img { height: auto !important; max-width: 100%; }
+    footer { margin-top: 4em; }
+}
