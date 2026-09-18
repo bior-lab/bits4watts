@@ -16,8 +16,6 @@ For another edition, copy a yearly folder and add its link to `index.html` and `
 
 Deploy by committing and pushing to the repository's configured GitHub Pages source. No build step is needed. Directory URLs use trailing slashes; GitHub Pages redirects `/2024` and `/2026` to their corresponding directories.
 
-The existing `program/`, `directions/`, `registration/`, and `flyer/` template pages are retained for compatibility but are not linked from the directory.
-
 ## Template credits
 
 Based on [Mike Pierce's conference website template](https://github.com/mikepierce/conference-website-template). See `LICENSE`.
